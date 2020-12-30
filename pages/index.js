@@ -6,9 +6,9 @@ const Index = () => (
   <Layout>
     <div>
       <Background/>
-      <h1 className={bgText}>Jillian Gibson</h1>
+      <div className={bgText}>Jillian Gibson</div>
       <hr className={hr}></hr>
-      <p className={smText}>Software Engineer</p>
+      <div className={smText}>Software Engineer</div>
     </div>
   </Layout>
   
