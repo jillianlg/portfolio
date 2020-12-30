@@ -1,12 +1,17 @@
 import Layout from '../components/Layout';
+import Background from './background';
+import { smText, bgText, hr } from '../styles.module.css'
 
 const Index = () => (
   <Layout>
     <div>
-      <h1>Jillian Gibson</h1>
-      <h4>Software Engineer</h4>
+      <Background/>
+      <h1 className={bgText}>Jillian Gibson</h1>
+      <hr className={hr}></hr>
+      <p className={smText}>Software Engineer</p>
     </div>
   </Layout>
+  
 );
 
 export default Index;

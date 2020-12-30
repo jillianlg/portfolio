@@ -1,0 +1,33 @@
+.bgWrap {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 50%;
+}
+
+.bgText {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1rem;
+  text-align: center;
+  padding-top: 8vh;
+  text-shadow: 1.5px 1.5px 1.5px #6d6d6d80;
+}
+
+.smText {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  text-align: center;
+  padding-top: 1vh;
+  text-shadow: 1px 1px 1px #6d6d6d80;
+}
+
+.hr {
+  background-color: #ffffff80;
+  width: 40vh;
+  margin-top: 4vh;
+
+}
