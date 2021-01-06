@@ -29,9 +29,16 @@
   background-color: #ffffff80;
   width: 40vh;
   margin-top: 4vh;
-
 }
 
 .inLineIcon {
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 15vh;
+}
+
+.icon {
+  padding: 0.5vh;
+  /* margin: 1vh; */
 }
