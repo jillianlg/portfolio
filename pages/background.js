@@ -5,14 +5,13 @@ const Background = () => (
   <div className={bgWrap}>
     <Image
       alt="cairn"
-      src="/cairn.jpg"
-      layout="responsive"
+      src="/cairn2.jpg"
+      layout="fill"
+      // layout="responsive"
       objectFit="cover"
       quality={100}
-    // src="/cairn.jpg"
-    // alt="cairn"
-    width={5755}
-    height={3826}
+      // width={5755}
+      // height={3826}
     />
   </div>
   

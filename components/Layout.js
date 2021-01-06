@@ -9,11 +9,10 @@ const Layout = (props) => (
       href="https://bootswatch.com/4/solar/bootstrap.min.css"/>
     </Head>
     <Navbar/>
-    <div className="container">
+    <div>
       {props.children}
     </div>
   </div>
 
 );
-
 export default Layout;
