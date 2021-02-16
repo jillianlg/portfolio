@@ -1,34 +1,41 @@
 import Image from 'next/image'
-import { inLineIcon, icon } from '../styles.module.css'
+import { inLineIcon, icon } from '../styles.module.css';
+import Link from 'next/link'; 
 
 const SocialMedia = () => (
   <div className={inLineIcon}>
     <div className={icon}>
-      <Image
-      alt="github icon"
-      src="/github.png"
-      layout="intrinsic"
-      width={512}
-      height={512}
-      />
-    </div>
-    <div className={icon}>
-      <Image
-        alt="linkedIn icon"
-        src="/linkedIn.png"
+      <Link href="https://github.com/jillianlg">
+        <Image
+        alt="github icon"
+        src="/github.png"
         layout="intrinsic"
         width={512}
         height={512}
         />
+      </Link>
     </div>
     <div className={icon}>
-      <Image
-      alt="email icon"
-      src="/email.png"
-      layout="intrinsic"
-      width={512}
-      height={512}
-      />
+      <Link href="https://www.linkedin.com/in/jillianlgibson/">
+        <Image
+          alt="linkedIn icon"
+          src="/linkedIn.png"
+          layout="intrinsic"
+          width={512}
+          height={512}
+          />
+      </Link>
+    </div>
+    <div className={icon}>
+      <a href="mailto:jillian.l.gibson@gamil.com">
+        <Image
+        alt="email icon"
+        src="/email.png"
+        layout="intrinsic"
+        width={512}
+        height={512}
+        />
+      </a>
     </div>
   </div>
 )

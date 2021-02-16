@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
+import { body } from '../styles.module.css'
 
 const Layout = (props) => (
   <div>
@@ -9,7 +10,7 @@ const Layout = (props) => (
       href="https://bootswatch.com/4/solar/bootstrap.min.css"/>
     </Head>
     <Navbar/>
-    <div>
+    <div className={body}>
       {props.children}
     </div>
   </div>
