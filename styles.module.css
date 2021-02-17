@@ -90,3 +90,65 @@
   max-width: 1000px;
   margin: 20px;
 }
+
+.projectPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07364293;
+  color: #ffffffb2;
+  margin: 0;
+  padding: 0;
+}
+
+.projectImageGroup{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 50px 50px 50px;
+}
+
+.projectImage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffffb2;
+  margin: 20px;
+  padding: 25px;
+}
+
+.projectLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.projectLinksGitHub{
+  padding: 0px 25px;
+  color: #073642;
+  font-weight: bolder;
+
+}
+
+.projectLinksSite{
+  padding: 0px 40px;
+  color: #073642;
+  font-weight: bolder;
+}
+
+.projectText{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 275px;
+  margin: 0px 0px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}

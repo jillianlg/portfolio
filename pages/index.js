@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
-import Background from './background';
+import Background from '../components/Background';
 import { smText, bgText, hr, center } from '../styles.module.css'
-import SocialMedia from '../components/social_media';
+import SocialMedia from '../components/SocialMedia';
 
 const Index = () => (
   <Layout>
