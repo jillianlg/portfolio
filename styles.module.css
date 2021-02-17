@@ -106,8 +106,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items: flex-start;
   margin: 20px 50px 50px 50px;
 }
 
@@ -142,6 +142,14 @@
   font-weight: bolder;
 }
 
+.projectLang{
+  font-size: 10px;
+  color: #073642;
+  margin: 0px 15pt;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 .projectText{
   display: flex;
   flex-wrap: wrap;
@@ -151,4 +159,5 @@
   margin: 0px 0px;
   padding-bottom: 20px;
   font-size: 14px;
+  color: #073642;
 }
