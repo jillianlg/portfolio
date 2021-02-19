@@ -18,8 +18,8 @@ const SocialMedia = () => (
     <div className={icon}>
       <Link href="https://www.linkedin.com/in/jillianlgibson/">
         <Image
-          alt="linkedIn icon"
-          src="/linkedIn.png"
+          alt="linkedin icon"
+          src="/linkedin.png"
           layout="intrinsic"
           width={512}
           height={512}
