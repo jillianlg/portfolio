@@ -53,6 +53,26 @@
   padding: 0.5vh;
 }
 
+.resumeBackground{
+  background-color: #07364293;
+  color: #ffffffb2;
+}
+
+.resumeDownload{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding:5px;
+  text-decoration: underline #000;
+}
+
+.resumeDownload:hover{
+  /* cursor: pointer; */
+  /* background-color: #dde4e693; */
+  text-decoration: underline #2aa198;
+}
+
 .resume{
   display: flex;
   flex-direction: column;
@@ -60,8 +80,8 @@
   align-items: center;
 }
 
-.resumePage{
-  margin-top: 10px;
+.resumePages{
+  margin-bottom: 5px;
 }
 
 .aboutPage{
