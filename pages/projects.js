@@ -83,7 +83,7 @@ const Projects = () => (
           <div className={projectText}>
           <span className={projectLang}>Vanilla JavaScript | HTML | localStorage | JSON | CSS</span>
             <p>While working remotely, my team and I recreated a modern version of the original 1985 Oregon Trail computer game over a four-day sprint. In OT Nuevo, the player assumes a driver’s role and is faced with a series of choices as they relocate from San Diego, California to Portland, Oregon.</p>
-            <p>While I contributed to all aspects of this project, I played a lead role in building the code that utilized the URL.searchParams function, localStorage, and looped through multiple nested arrays to update state and append current data to the UI.</p>
+            <p>I contributed to all aspects of this project, I played a lead role in building the code that utilized the URL.searchParams function, localStorage, and looped through multiple nested arrays to update state and append current data to the UI.</p>
           </div>
         </div>
       </div>

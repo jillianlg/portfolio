@@ -20,7 +20,7 @@ const About = () => (
         <p>Of course, I geek out over whiteboards, problem-solving, strategizing, and well-organized budget projections. But my intrigue with social psychology, my strong listening skills, and a natural ability to lead has been a guiding force in my success with varying industries.</p>
         <p>Over the last twenty-three years, I have provided medical care in the US Navy, directed sensory-integrated Theater, managed a 500-seat Performing Arts Center with a staff of 20 technicians, and oversaw cross-functional teams in the pre-planning and implementation of small C-level summits to large (65k) conferences. Assisting in the development of the Opus Event App, where I contributed to the UX and back-end development and bridged the gap between the non-technical stakeholders/beta testers and the developers, is what sparked my interest in learning more about programming.</p>
         <p>I have climbed up the career tree by growing my current skill sets and continuously seeking learning opportunities. Transitioning to a career in internet technology as a software engineer was the logical next step!</p>
-        <p>As a Full Stack-JavaScript developer, I believe that efficient software design, clean code, quality documentation, teamwork, and constant learning are the keys to long-term success.</p>
+        <p>As a Full Stack-JavaScript developer, I believe that efficient software design, clean code, quality documentation, TDD, teamwork, and constant learning are the keys to long-term success.</p>
       </div>
     </div>
   </Layout>
