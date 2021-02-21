@@ -8,7 +8,7 @@ const About = () => (
       <div className={aboutImage}>
         <Image
           alt="climbing-quote icon"
-          src="/climbing-quote.png"
+          src="/assets/climbing-quote.png"
           layout="intrinsic"
           width={700}
           height={400}

@@ -6,14 +6,13 @@ import SocialMedia from '../components/SocialMedia';
 const Index = () => (
   <Layout>
       <Background/>
-    <div className={center}>
+    <section className={center}>
       <div className={bgText}>Jillian Gibson</div>
       <hr className={hr}></hr>
       <div className={smText}>Full-Stack Software Engineer</div>
       <SocialMedia/>
-    </div>
+    </section>
   </Layout>
-  
 );
 
 export default Index;

@@ -7,10 +7,7 @@
   opacity: 50%;
 }
 
-/* .body{
-  background-color: #073642;
-  opacity: 70%;
-} */
+
 
 .bgText {
   margin: 0;
@@ -52,6 +49,9 @@
 .icon {
   padding: 0.5vh;
 }
+.icon:hover{
+  text-decoration: underline #2aa198;
+}
 
 .resumeBackground{
   background-color: #07364293;
@@ -68,8 +68,6 @@
 }
 
 .resumeDownload:hover{
-  /* cursor: pointer; */
-  /* background-color: #dde4e693; */
   text-decoration: underline #2aa198;
 }
 
@@ -180,4 +178,18 @@
   padding-bottom: 20px;
   font-size: 14px;
   color: #073642;
+}
+
+.azDemoPage{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  background-color: #07364293;
+}
+
+.azDemoVideo{
+  background-color: #ffffffb2;
+  margin: 20px;
+  padding: 5px;
 }

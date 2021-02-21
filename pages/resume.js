@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { resumeBackground, resumeDownload, resume, resumePages } from '../styles.module.css';
 
 const Resume = () => (
-  <section className={resumeBackground} >
+  <div className={resumeBackground} >
     <Layout>
         <section className={resumeDownload}>
           <Link href="../2021JGibson_Resume_2pg.pdf">
@@ -15,7 +15,7 @@ const Resume = () => (
         <div className={resumePages}>
           <Image
               alt="resume-page-2"
-              src="/resume-page1.png"
+              src="/assets/resume-page1.png"
               layout="intrinsic"
               width={700}
               height={850}
@@ -24,7 +24,7 @@ const Resume = () => (
         <div className={resumePages}>
           <Image
               alt="resume-page-2"
-              src="/resume-page2.png"
+              src="/assets/resume-page2.png"
               layout="intrinsic"
               width={700}
               height={850}
@@ -32,7 +32,7 @@ const Resume = () => (
         </div>
       </section>
     </Layout>
-  </section>
-  );
+  </div>
+);
   
   export default Resume;
