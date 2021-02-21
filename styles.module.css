@@ -151,13 +151,20 @@
   padding: 0px 25px;
   color: #073642;
   font-weight: bolder;
+}
 
+.projectLinksGitHub:hover{
+  text-decoration: underline #2aa198;
 }
 
 .projectLinksSite{
   padding: 0px 40px;
   color: #073642;
   font-weight: bolder;
+}
+
+.projectLinksSite:hover{
+  text-decoration: underline #2aa198;
 }
 
 .projectLang{

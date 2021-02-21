@@ -29,10 +29,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/azdemo": [
+    "/next/dist/pages/_error": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/azdemo.js"
+      "static/chunks/pages/next/dist/pages/_error.js"
+    ],
+    "/projects": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/projects.js"
     ]
   },
   "ampFirstPages": []
