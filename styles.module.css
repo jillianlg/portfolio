@@ -7,8 +7,6 @@
   opacity: 50%;
 }
 
-
-
 .bgText {
   margin: 0;
   font-size: 3rem;
@@ -195,8 +193,12 @@
   background-color: #07364293;
 }
 
+.azDemoText{
+  margin-top: 15px;
+}
+
 .azDemoVideo{
   background-color: #ffffffb2;
-  margin: 20px;
+  margin: 5px;
   padding: 5px;
 }

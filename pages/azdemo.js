@@ -1,31 +1,30 @@
-
-// import ProductDemo from '../public/video/alcheZoomy_product_demo.mp4';
 import ReactPlayer from 'react-player';
 import Layout from '../components/Layout';
-import { azDemoPage, azDemoVideo } from '../styles.module.css';
+import { azDemoPage, azDemoVideo, azDemoText } from '../styles.module.css';
 
 const azDemo = () => (
     <Layout>
       <div className={azDemoPage}>
+          <p className={azDemoText}>Product Demo</p>
         <section className={azDemoVideo}>
           <ReactPlayer 
-            url="https://youtu.be/mxsN1LDVO1Q"
+            url="/video/alcheZoomy_product_demo.mp4"
             controls
-            // src={ProductDemo}
+            controlsList="nodownload"
             layout="intrinsic"
-            width={840}
-            height={560}
+            width={640}
+            height={270}
             // playing={ isPlaying }
           />
         </section>
+        <p className={azDemoText}>Technical Presentation</p>
         <section className={azDemoVideo}>
           <ReactPlayer 
             url="https://youtu.be/bYmoMhTtZMU"
             controls
-            // src={ProductDemo}
             layout="intrinsic"
-            width={840}
-            height={560}
+            width={640}
+            height={270}
           />
         </section>
       </div>
