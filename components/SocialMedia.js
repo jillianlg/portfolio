@@ -27,7 +27,7 @@ const SocialMedia = () => (
       </a>
     </div>
     <div className={icon}>
-      <a href="mailto:jillian.l.gibson@gamil.com">
+      <a href="mailto:jillian.l.gibson@gmail.com">
         <Image
         alt="email icon"
         src="/assets/email.png"
