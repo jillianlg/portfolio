@@ -8,6 +8,32 @@ const Projects = () => (
     <div className={projectPage}>
       {/* <h4>Search</h4> */}
       <div className={projectImageGroup}>
+      <section className={projectImage}>
+          <Image
+            alt="flourish Logo"
+            src="/assets/flourishLogo.png"
+            layout="intrinsic"
+            width={312}
+            height={300}
+          />
+          <div className={projectLinks}>
+            <div className={projectLinksGitHub}>
+              <Link href="https://github.com/FlourishTeam">
+                <p>GitHub</p>
+              </Link>
+            </div>
+            <div className={projectLinksSite}>
+            <Link href="https://flourish-pro.netlify.app/">
+              <p>Site</p>
+            </Link>
+            </div>
+          </div>
+          <div className={projectText}>
+          <span className={projectLang}>JSX | React | React Hooks | Express | GraphQL | PostgreSQL | Heroku</span>
+            <p>Created over a 10-day sprint while working remotely, Flourish is a full-stack application designed to help novice plant owners navigate the nursery and learn how to care for their new plant family. Through text search or photo recognition, the user can quickly identify a plant, get detailed information on plant-specific care, add plants to their collection, log maintenance, and add custom notes.</p>
+            <p>With three days of dedicated, detailed pre-planning, I helped my team establish wireframes, user stories, and the ERD for our database. The following seven days, I focused on backend development, where I helped set up the PostgreSQL database and built a GraphQL API that integrated a photo recognition API, our own hardcoded Flourish API, and image web scraper.</p>
+          </div>
+        </section>
         <section className={projectImage}>
           <Image
             alt="beHuman Logo"
