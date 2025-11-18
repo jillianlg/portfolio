@@ -7,7 +7,7 @@ const Index = () => (
   <Layout>
       <Background/>
     <section className={center}>
-      <div className={bgText}>Jillian Gibson</div>
+      <h1 className={bgText}>The Embodied Knot</h1>
       <hr className={hr}></hr>
       <div className={smText}>Full-Stack Software Engineer</div>
       <SocialMedia/>
